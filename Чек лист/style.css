@@ -1,0 +1,29 @@
+
+.wrapper {
+  position: relative;
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 1200px;
+  position: relative;
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+body {
+	text-align: center;
+}
+#input, #list {
+	display: inline-block;
+}
+#list {
+  position: relative;
+	padding: 0;
+	list-style-type: none;
+}
+.through {
+  text-decoration: line-through
+}
+.absol {
+  position: absolute;
+}

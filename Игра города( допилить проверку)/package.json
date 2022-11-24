@@ -1,0 +1,19 @@
+{
+  "name": "citygame",
+  "version": "1.0.0",
+  "description": "Доделать проверку робота. Что бы проверял когда он ходит, был ли уже такой город",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "no"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "no"
+  ],
+  "author": "",
+  "license": "ISC"
+}

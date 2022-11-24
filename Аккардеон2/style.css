@@ -1,0 +1,99 @@
+.absol {
+  position: absolute;
+  top: -6px;
+  left: 124px;
+  border-radius: 15%;
+}
+p {
+  position: relative;
+}
+.wrapper {
+  position: relative;
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 1200px;
+  position: relative;
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.findArea {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  width: 1000px;
+  height: 300px;
+  background-color: rgb(192, 235, 203);
+  margin: 10px;  
+}
+input {
+  width: 300px;
+  height: 30px;
+}
+.descrArea {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  width: 960px;
+  height: 460px;
+  background-color: rgb(192, 235, 203);
+  margin: 10px;
+  padding: 20px;
+}
+.spoiler:not(.active) {
+	display: none;
+}
+.key {
+  cursor: pointer;
+  margin: 10px;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  border: 1px solid rgb(0, 0, 0);
+  width: 30px;
+  height: 30px;
+  background-color: rgb(168, 243, 227);
+  border-radius: 30%;
+}
+button { 
+  margin-left: 10px;
+  width: 300px;
+  height: 55px;
+}
+
+#parent {
+	margin: 0 auto;
+	width: 400px;
+}
+.tab {
+	margin-bottom: 10px;
+}
+
+.tab .link a {
+	display: block;
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	background: #f8f8f8;
+	border: 1px solid gray;
+}
+.tab .link:hover a {
+	background: #f2f2f2;
+}
+
+.tab:not(.active) .text {
+	display: none;
+}
+.tab .text {
+	border: 1px dashed gray;
+	border-top: none;
+	
+	padding: 10px;
+	height: 300px;
+}

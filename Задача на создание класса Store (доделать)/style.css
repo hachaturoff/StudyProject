@@ -1,0 +1,22 @@
+
+.wrapper {
+  position: relative;
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 1200px;
+  position: relative;
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+body {
+	text-align: center;
+}
+
+.right {
+	border: 1px solid green;
+}
+.wrong {
+	border: 1px solid red;
+}
